@@ -4,7 +4,7 @@ import os
 import subprocess
 from dotenv import load_dotenv
 
-CONFIG_FILE_URL = os.environ.get('CONFIG_FILE_URL')
+CONFIG_FILE_URL = 'https://gist.githubusercontent.com/Sanchit0102/f396aec780a9ecc59d94c051d014bbc6/raw/db46800a1ed28603931f10550493dfea98f2b9d3/merge.txt' #os.environ.get('CONFIG_FILE_URL')
 try:
     if len(CONFIG_FILE_URL) == 0:
         raise TypeError
